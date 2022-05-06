@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-
+// api controller
 Route::resource('companies',CompaniesController::class);
 
 Auth::routes();
